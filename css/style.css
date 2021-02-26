@@ -8,3 +8,13 @@
     width: 70%;
     margin: auto;
 }
+
+.container header div{
+    display: flex;
+    flex-direction: row;
+}
+
+.container header div ul{
+    display: flex;
+    flex-direction: row;
+}
