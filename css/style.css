@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h2, h3{
+    padding: 10px 0;
+}
+
 .container{
     width: 70%;
     margin: auto;
@@ -12,9 +16,17 @@
 .container header div{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container header div ul{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.container header div ul li{
+    padding: 0 5px;
+    list-style-type: none;
 }
